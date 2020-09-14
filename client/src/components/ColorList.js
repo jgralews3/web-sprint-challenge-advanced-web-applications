@@ -12,8 +12,6 @@ const initialColor = {
 const ColorList = ({ colors, updateColors}) => {
   console.log(colors)
 
-  const {push} = useHistory();
-  const {id} = useParams();
   const [editing, setEditing] = useState(false);
   const [colorToEdit, setColorToEdit] = useState(initialColor);
 
